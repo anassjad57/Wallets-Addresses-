@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Addresses</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .address {
+            margin: 30px auto;
+            width: 90%; /* يحدد عرض الـ address ليكون متناسب مع الشاشة */
+            max-width: 600px; /* أقصى عرض للـ address */
+        }
+        img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            word-break: break-word; /* لضمان تقسيم النصوص بشكل جيد */
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>MY ADDRESSES</h1>
+
+    <div class="address">
+        <img src="https://cryptologos.cc/logos/solana-sol-logo.png" alt="Solana Logo">
+        <h2>SOL</h2>
+        <p>JBuhRUnaXcuvSH2K3vmW1d7vWW94EFDY6sUtU7d5QFyv</p>
+    </div>
+
+    <div class="address">
+        <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum Logo">
+        <h2>ETH</h2>
+        <p>0x23D9de20e65Bbfc24680fD9106A26A3C2e909b5B</p>
+    </div>
+
+    <div class="address">
+        <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin Logo">
+        <h2>BTC</h2>
+        <p>bc1p8eqsndfa6y7j5r3afm5d6y7v6kradvu2h6tdpyg9x29w8ul0sxdscadug5</p>
+    </div>
+</body>
+</html>
